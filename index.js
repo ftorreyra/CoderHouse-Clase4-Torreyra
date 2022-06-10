@@ -67,7 +67,6 @@ function descuentos() {
         console.log('Codigo correcto');
         const indexCode = cuponsDiscount.indexOf(codeDiscount);
         cuponsDiscount.splice(indexCode, 1);
-        console.log(cuponsDiscount);
     } else {
         console.log('El código no es válido');
     }
